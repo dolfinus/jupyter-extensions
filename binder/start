@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Configure SparkConnector
+export SPARK_PORTS=5001,5002,5003,5004
+exec "$@" 
